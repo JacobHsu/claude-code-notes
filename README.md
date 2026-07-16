@@ -1,23 +1,36 @@
 # claude-code-notes
 
-CLAUDE.md 給永久規則、memory 給學到的模式、session 給連續性、context 管理給效率、spec 給交接  
 
-- CLAUDE.md — 永久規則，每場 session 載入，壓縮後存活。
-- Auto memory — Claude 自學從經驗的筆記。
-- Session — 命名、接續、fork。
-- Context window — 用 /context 監控、用 /compact 壓縮、用 /clear 清。
-- Spec — 你複雜工作的 handoff 文件。
-- Checkpoint — Esc+Esc 倒帶任何改動。
-- Subagent — 隔離 context 給調查。
-- Skill — 按需載入知識不浪費 context。
-
-[Claude2Code](https://claude2code.com/) 免費互動課
+CLAUDE.md handles permanent rules, memory manages learned patterns, session ensures continuity, context management boosts efficiency, and spec facilitates handovers.
 
 
-## 指令
+- CLAUDE.md — Permanent rules. These are loaded with each session and remain intact after compression.
+- Auto memory — Claude learns from notes taken from its experiences.
+- Session — Naming, connection, and fork.
+- Context window: Monitor with /context, compress with /compact, clear with /clear.
+- Spec — Your handoff document for complex tasks.
+- Checkpoint — Use Esc+Esc to undo any changes.
+- Subagent — Isolates the context for investigation purposes.
+- Skill — Loads knowledge on demand to avoid wasting context.
 
-你昨天做一個功能、今天要繼續。接續最快的方法是？
-`claude --continue`  
 
-### allow all permissions 
-`claude --dangerously-skip-permissions` 
+[Claude2Code](https://claude2code.com/) Free interactive courses
+
+
+
+
+## Instructions
+
+
+You completed one feature yesterday and need to continue today. What’s the fastest way to do this?
+`claude --continue`
+
+
+### Allow all permissions
+`claude --dangerously-skip-permissions`
+
+
+## claude-for-chrome
+
+[claude-for-chrome](https://claude.com/claude-for-chrome)  
+`@browser` 開啟 http://localhost:5173，檢查頁面是否正常顯示，並查看 Console 是否有錯誤
